@@ -37,5 +37,16 @@ sudo ln -s /etc/phpmyadmin/apache.conf /etc/apache2/conf-available/phpmyadmin.co
 sudo a2enconf phpmyadmin
 sudo service apache2 reload
 
+clear
+echo " "
+echo "Installation has been completed!!"
+echo " "
+echo "--------------------------------------------------"
+echo "         IEPH-RAF Script for database             "
+echo "--------------------------------------------------"
+echo " "
+echo " "
+echo "Enter your mysql password okay!"
+
 # Access mysql
 sudo mysql -u root -p
