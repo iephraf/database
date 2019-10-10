@@ -37,6 +37,10 @@ sudo ln -s /etc/phpmyadmin/apache.conf /etc/apache2/conf-available/phpmyadmin.co
 sudo a2enconf phpmyadmin
 sudo service apache2 reload
 
+# Make writable directory
+chmod -R 775 /var/www/html
+chmod 777 /var/www/html
+
 clear
 echo " "
 echo "Installation has been completed!!"
